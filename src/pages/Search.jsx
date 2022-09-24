@@ -1,7 +1,10 @@
+import SearchMain from '../components/Search/SearchMain'
 
 const Search = () => {
   return (
-    <div>Search</div>
+    <div>
+      <SearchMain></SearchMain>
+    </div>
   )
 }
 
