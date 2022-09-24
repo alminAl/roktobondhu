@@ -1,8 +1,10 @@
+import PlateletMain from "../components/Platelet/PlateletMain"
 
 
 const Platelet = () => {
   return (
-    <div>Platelet page</div>
+    <div><PlateletMain></PlateletMain></div>
+    
   )
 }
 
