@@ -1,7 +1,13 @@
+import Banner from "../components/HomeComponent/Banner/Banner"
+import Event from "../components/HomeComponent/EventComponent/Event"
+
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Banner />
+      <Event/>
+    </div>
   )
 }
 

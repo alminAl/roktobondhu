@@ -1,12 +1,14 @@
 // import { Link } from "react-router-dom";
+// import Footer from "../components/SharedComponent/Footer/Footer";
+
 import Footer from "../components/SharedComponent/Footer/Footer";
-import Navbar from "../components/SharedComponent/Navbar/Navbar";
+import NavBar from "../components/SharedComponent/Navbar/NavBar";
 
 const Layout = ({ children }) => {
   return (
     <div>
       <nav>
-        <Navbar/>
+       <NavBar/>
         {/* <Link to="/">Home</Link>
         <br />
         <Link to="/platelet">Platelet</Link>

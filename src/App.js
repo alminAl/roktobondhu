@@ -15,8 +15,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Layout>
-          
+        <Layout> 
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/platelet" element={<Platelet />} />
