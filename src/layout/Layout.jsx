@@ -6,7 +6,6 @@ const Layout = ({ children }) => {
   return (
     <div>
       <nav>
-        {/* <h1>navber</h1> */}
         <Navbar/>
         {/* <Link to="/">Home</Link>
         <br />
@@ -24,7 +23,7 @@ const Layout = ({ children }) => {
       </nav>
       <main>{children}</main>
       <footer>
-        {/* <h1>footer</h1> */}
+        
         <Footer/>
       </footer>
     </div>

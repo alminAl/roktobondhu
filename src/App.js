@@ -15,6 +15,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Layout>
+          
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/platelet" element={<Platelet />} />

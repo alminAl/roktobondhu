@@ -1,8 +1,7 @@
-nav {
+.navbar {
      background: rgb(248, 248, 255);
      height: 80px;
      width: 100%;
-
 }
 
 label.logo {
@@ -41,8 +40,9 @@ nav ul li a {
      font-size: 17px;
      padding: 7px 17px;
      border-radius: 3px;
-     text-transform: uppercase;
+     /* text-transform: uppercase; */
      font-weight: 600;
+     text-decoration: none;
 
 }
 
@@ -50,7 +50,7 @@ a.active,
 a:hover {
      background: #ED0404;
      transition: .5s;
-     color: white;
+     color: #fff !important;
 }
 
 .check-btn {
