@@ -7,10 +7,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.1",
-<<<<<<< HEAD
-=======
     "fontawesome": "^5.6.3",
->>>>>>> 43e79e0548143ce5cb69c6a52ba4954e25c53bea
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.1",
