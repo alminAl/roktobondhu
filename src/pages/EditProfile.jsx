@@ -1,6 +1,7 @@
+import React from "react";
 import { Link } from "react-router-dom";
-const Profile = () => {
-  // const _id= '';
+
+const EditProfile = () => {
   return (
     <div className="section-gap">
       <section className="container userProfile">
@@ -75,34 +76,58 @@ const Profile = () => {
 
             <hr />
 
-            <div>
-              <h3>Contact Information</h3>
+            <form onSubmit="">
+              <div>
+                <h3>Contact Information</h3>
 
-              <div className="row gx-3 my-1">
-                <p className="col-sm-3 text-end fw-bold">Mobile :</p>
-                <p className="col-sm-9 bg-success text-dark bg-opacity-25 rounded fw-semibold">
-                  01xxx xxxxxx
-                </p>
+                <div className="row gx-3 my-2">
+                  <h5 className="col-sm-3 text-end fw-bold">Mobile :</h5>
+                  <div className="col-sm-9 ps-0 ms-0">
+                    <input
+                      className="col-sm-7 rounded fw-semibold"
+                      type="number"
+                      placeholder="01xxx xxxxxx"
+                    />
+                    <input
+                      className="ms-5 bg-success text-dark bg-opacity-25 rounded fw-semibold"
+                      type="checkbox"
+                    />{" "}
+                    <label>Show Number Publicly</label>
+                  </div>
+                </div>
+                <div className="row gx-3 my-2">
+                  <h5 className="col-sm-3 text-end fw-bold">Email :</h5>
+                  <input
+                    className="col-sm-9 rounded"
+                    type="email"
+                    placeholder="example@example.com"
+                  />
+                </div>
+                <div className="row gx-3 my-2">
+                  <h5 className="col-sm-3 text-end fw-bold">
+                    Present Address :
+                  </h5>
+                  <textarea
+                    className="col-sm-9 rounded fw-semibold"
+                    type="text"
+                    placeholder="Dhaka, Bangladesh"
+                  />
+                </div>
+                <div className="row gx-3 my-1">
+                  <p className="col-sm-3 text-end fw-bold">
+                    Permanent Address :
+                  </p>
+                  <p className="col-sm-9 bg-success text-dark bg-opacity-25 rounded fw-semibold">
+                    Dhaka, Bangladesh
+                  </p>
+                </div>
               </div>
-              <div className="row gx-3 my-1">
-                <p className="col-sm-3 text-end fw-bold">Email :</p>
-                <p className="col-sm-9 bg-success text-dark bg-opacity-25 rounded fw-semibold">
-                  example@example
-                </p>
+              <div className="d-flex justify-content-end">
+                <button type="submit" className="btn btn-dark fw-bold">
+                  Update Profile
+                </button>
               </div>
-              <div className="row gx-3 my-1">
-                <p className="col-sm-3 text-end fw-bold">Present Address :</p>
-                <p className="col-sm-9 bg-success text-dark bg-opacity-25 rounded fw-semibold">
-                  Dhaka, Bangladesh
-                </p>
-              </div>
-              <div className="row gx-3 my-1">
-                <p className="col-sm-3 text-end fw-bold">Permanent Address :</p>
-                <p className="col-sm-9 bg-success text-dark bg-opacity-25 rounded fw-semibold">
-                  Dhaka, Bangladesh
-                </p>
-              </div>
-            </div>
+            </form>
 
             <hr />
 
@@ -110,10 +135,7 @@ const Profile = () => {
               <h3>Other Information</h3>
 
               <div className="row gx-3 my-1">
-                <p>
-                  !platelet donar && want to platelet donar...?{" "}
-                  <Link>register</Link>
-                </p>
+                <p>!platelet donar && want to platelet donar...? register</p>
               </div>
             </div>
           </div>
@@ -123,4 +145,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default EditProfile;
