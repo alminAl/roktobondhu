@@ -16,14 +16,13 @@ const Navitem = () => {
       <NavLink to="/platelet" className={getNavLinkActiveClass}>
         প্লাটিলেট
       </NavLink>
-
       <NavLink to="/thalassemia" className={getNavLinkActiveClass}>
         থ্যালাসেমিয়া
       </NavLink>
       <NavLink to="/volunteers" className={getNavLinkActiveClass}>
         ভলান্টিয়ার্স
       </NavLink>
-      <NavLink to="/partener" className={getNavLinkActiveClass}>
+      <NavLink to="/partner" className={getNavLinkActiveClass}>
         সহযোগী সংগঠন
       </NavLink>
       <NavLink to="/blog" className={getNavLinkActiveClass}>
