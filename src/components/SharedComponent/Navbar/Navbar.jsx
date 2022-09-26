@@ -1,19 +1,21 @@
 import React from "react";
-import { Container, Navbar } from "react-bootstrap";
+import { Container, Navbar as BSNavbar } from "react-bootstrap";
 import NavBrand from "./NavBrand/NavBrand";
 import Navitem from "./NavItem/NavItem";
-const NavBar = () => {
+
+
+const Navbar = () => {
   return (
-    <Navbar expand="lg" className="bg-light" fixed="top">
+    <BSNavbar expand="lg" className="bg-light" fixed="top">
       <Container>
         <NavBrand />
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <BSNavbar.Toggle aria-controls="responsive-navbar-nav" />
+        <BSNavbar.Collapse id="responsive-navbar-nav">
           <Navitem />
-        </Navbar.Collapse>
+        </BSNavbar.Collapse>
       </Container>
-    </Navbar>
+    </BSNavbar>
   );
 };
 
-export default NavBar;
+export default Navbar;
