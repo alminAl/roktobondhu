@@ -11,7 +11,7 @@ const Banner = () => {
         <p className="my-3">
           <Link to="/signin">
             <Button
-              btnClass="btn btn-outline-danger bannerBtn"
+              btnClass="btn btn-danger bannerBtn"
               name="আসুন রক্তদান করি"
               style={{ color: "ED0404" }}
             />
