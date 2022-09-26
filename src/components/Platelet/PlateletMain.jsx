@@ -122,7 +122,7 @@ const PlateletMain = () => {
           </a>
         </div>
       </div>
-      <div className="container w-75 m-auto bg-denger ektujeneninMain">
+      <div className="container w-75 bg-denger ektujeneninMain">
         <div class="topektujenenin">
           <h2>একটু জেনে নিন...</h2>
         </div>

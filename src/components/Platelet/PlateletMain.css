@@ -4,6 +4,7 @@
     background-color: bisque;
     border-radius: 50%;
     box-shadow: 0 0 50px #ccc;
+    margin-top: 100px;
 }
 .Platelate-Header-Name{
     color: red;
@@ -47,15 +48,16 @@
     margin-top: 10px !important;
 }
 .ektujeneninMain{
-    margin-top: 30px !important;
+    margin-top: 40px;
     box-sizing: border-box;
    border-radius: 10px;
    overflow: hidden;
+   margin-bottom: 100px;
    
 }
 .bistarito-btn{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .ektujeneninMain:hover{
-    box-shadow: 0.5rem 0.5rem rgb(198, 15, 15), -0.5rem -0.5rem rgb(207, 205, 89);
+    box-shadow: 0.5rem 0.5rem rgb(198, 15, 15), -0.5rem -0.5rem rgb(8, 8, 8);
 }
