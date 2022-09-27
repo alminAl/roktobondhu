@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ThalasemiaDetails from "./components/Thalassemia/ThalasemiaDetails";
 import Layout from "./layout/Layout";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/platelet" element={<Platelet />} />
             <Route path="/thalassemia" element={<Thalassemia />} />
+            <Route path="/thalasemiadetails" element={<ThalasemiaDetails></ThalasemiaDetails>}></Route>
             <Route path="/volunteers" element={<Volunteers />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signin" element={<Signin />} />

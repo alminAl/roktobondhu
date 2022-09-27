@@ -1,8 +1,11 @@
+import ThalassemiaP from "../components/Thalassemia/ThalassemiaP"
 
 
 const Thalassemia = () => {
   return (
-    <div>Thalassemia page</div>
+    <div>
+      <ThalassemiaP></ThalassemiaP>
+    </div>
   )
 }
 
