@@ -1,16 +1,14 @@
-<<<<<<< HEAD
+
 //import { Link } from "react-router-dom";
 //import Footer from "../components/SharedComponent/Footer/Footer";
 
-import Footer from "../components/SharedComponent/Footer/Footer";
-import NavBar from "../components/SharedComponent/Navbar/Navbar";
-=======
+//import Footer from "../components/SharedComponent/Footer/Footer";
+//import NavBar from "../components/SharedComponent/Navbar/Navbar";
+
 
 
 import Footer from "../components/SharedComponent/Footer/Footer";
 import Navbar from "../components/SharedComponent/Navbar/Navbar";
-
->>>>>>> efbf4bcc54fd24634eb5c4533034469b24792461
 
 const Layout = ({ children }) => {
   return (

@@ -14,7 +14,7 @@ const LoginMain = () => {
         </div>
         <form>
             <p>ইমেইল <span>*</span></p>
-            <input type="email" name="ইমেইল" placeholder="আপনার ইমেইল দিন "/>
+            <input type="email" name="" placeholder="আপনার ইমেইল দিন "/>
             <p>পাসওয়ার্ড <span>*</span></p>
             <input type="password" name="" placeholder="আপনার পাসওয়ার্ড দিন"/>
             <div>
