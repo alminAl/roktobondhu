@@ -3,6 +3,7 @@ import Layout from "./layout/Layout";
 import EditProfile from "./pages/EditProfile";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import LoginSignupTest from "./pages/LoginSignupTest";
 import Platelet from "./pages/Platelet";
 import Profile from "./pages/Profile";
 import Search from "./pages/Search";
@@ -15,13 +16,14 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Layout> 
+        <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/platelet" element={<Platelet />} />
             <Route path="/thalassemia" element={<Thalassemia />} />
             <Route path="/volunteers" element={<Volunteers />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/logint" element={<LoginSignupTest />} />
             <Route path="/signin" element={<Signin />} />
             <Route path="/search" element={<Search />} />
             <Route path="/profile" element={<Profile />} />
