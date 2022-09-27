@@ -1,8 +1,8 @@
-// import { Link } from "react-router-dom";
-// import Footer from "../components/SharedComponent/Footer/Footer";
+//import { Link } from "react-router-dom";
+//import Footer from "../components/SharedComponent/Footer/Footer";
 
 import Footer from "../components/SharedComponent/Footer/Footer";
-import NavBar from "../components/SharedComponent/Navbar/NavBar";
+import NavBar from "../components/SharedComponent/Navbar/Navbar";
 
 const Layout = ({ children }) => {
   return (
